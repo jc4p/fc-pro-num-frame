@@ -1,0 +1,17 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjk3NzIzMywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGE2N0JhMDI4MTIzMWVCOUUyZWE0Y0Y5Nzg5NGMwYjBiNUI4MDFDYzYifQ",
+    "payload": "eyJkb21haW4iOiJmYy1wcm8tbnVtLmthc3JhLmNvZGVzIn0",
+    "signature": "MHhkMTAwZDcxMGE3ZWQyYTBjMWY0ZDI0ZDdmNjJiN2NlM2Y1MWJkMDRjZmY2NjdkZTc2ZjMwYTRkNzNlNWJiMTU1M2Q3NjBiOTFlYmY1OGQ4YjE0YmRiNTAxNTA4YTY5NGNjN2ZjMjFkNmFkNDU2NmIxNmJiODkzMmI3ZDQ5YTU1ODFj"
+  },
+  "frame": {
+    "version": "1",
+    "name": "FC Pro Number",
+    "iconUrl": "https://cover-art.kasra.codes/fc_pro_num_square.png",
+    "homeUrl": "https://fc-pro-num.kasra.codes",
+    "imageUrl": "https://cover-art.kasra.codes/fc_pro_num_rectangle.png",
+    "buttonTitle": "Check Your Pro Number",
+    "splashImageUrl": "https://cover-art.kasra.codes/fc_pro_num_square.png",
+    "splashBackgroundColor": "#9B469B"
+  }
+}
