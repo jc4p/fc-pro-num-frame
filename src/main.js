@@ -58,7 +58,7 @@ async function handleShare() {
   
   if (userData && userData.position) {
     const minutesAfter = calculateMinutesAfterLaunch(userData.timestamp);
-    shareText = `I am Farcaster Pro User #${userData.position.toLocaleString()} (approx), I signed up ${minutesAfter} minutes after launch!`;
+    shareText = `I am Farcaster Pro User #${userData.position.toLocaleString()}, I signed up ${minutesAfter} minutes after launch!`;
   } else {
     shareText = "I'm not a Farcaster Pro user yet, check if you are!";
   }
