@@ -95,7 +95,6 @@ function renderApp() {
       <div class="container">
         <h1 class="title">YOUR PRO NUMBER</h1>
         <div class="number">${formattedPosition}</div>
-        <div class="subtitle">(approx)</div>
         <div class="subtitle">Joined ${minutesAfter} minutes after launch</div>
         <button id="shareBtn" class="share-btn">Share</button>
       </div>
