@@ -46,7 +46,7 @@ async function fetchUserData() {
 
 function calculateMinutesAfterLaunch(timestamp) {
   // Launch was 1:00 PM PT today (May 27, 2025)
-  const launchTime = new Date('2025-05-27T21:00:00.000Z'); // 1:00 PM PT = 21:00 UTC
+  const launchTime = new Date('2025-05-27T20:00:00.000Z'); // 1:00 PM PT = 20:00 UTC
   const userTime = new Date(timestamp);
   const diffMs = userTime.getTime() - launchTime.getTime();
   const diffMinutes = Math.floor(diffMs / (1000 * 60));
@@ -63,7 +63,7 @@ async function handleShare() {
     shareText = "I'm not a Farcaster Pro user yet, check if you are!";
   }
   
-  const appUrl = window.location.href;
+  const appUrl = 'https://fc-pro-num.kasra.codes/';
   const shareUrl = `https://warpcast.com/~/compose?text=${encodeURIComponent(shareText)}&embeds[]=${encodeURIComponent(appUrl)}`;
   
   try {
